@@ -1,0 +1,41 @@
+input, textarea {
+    margin-bottom: 5px;
+}
+
+body {
+    padding-top: 60px;
+}
+
+.mu .navbar-default {
+    background-color: #5061a0;
+    border-color: #080808;
+}
+
+.mu .navbar-default .navbar-brand {
+    color: #f5f5f5;
+}
+
+ .mu-plus {
+    color: #f5f5f5;
+}
+
+.mu .mu-split-view-left {
+    position: absolute;
+    top: 60px;
+    bottom: 0px;
+    z-index: 1;
+    overflow-y: scroll;
+}
+
+
+@media (min-width: 1200px) {
+    .col-lg-9.mu-split-view-right {
+        width: 75%;
+        position: absolute;
+        right: 0px;
+        overflow-y: scroll;
+        top: 60px;
+        bottom: 0px;
+    }
+}
+
